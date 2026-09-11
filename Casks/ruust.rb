@@ -1,23 +1,23 @@
 cask "ruust" do
-  version "0.2.1"
+  version "0.3.0"
 
   on_macos do
     on_arm do
-      sha256 "dbb609f4425cb647f6636e07cb996c1335d9c00dea7dbdbfa1d963b790102edf"
+      sha256 "fcf15fa65bcbc412e1121577b796e68c4878a0b4e3ccea7da2d256269a9b6969"
       url "https://github.com/RuustRun/cli/releases/download/v#{version}/ruust_#{version}_darwin_arm64.tar.gz"
     end
     on_intel do
-      sha256 "5438474fea7f0b5736ad94162c526881522c8589d41e5a0d3eab0e108fe6b30e"
+      sha256 "683f40946ed47e529523c15692baff9ddd695485883d54859c0bab29dae36a80"
       url "https://github.com/RuustRun/cli/releases/download/v#{version}/ruust_#{version}_darwin_amd64.tar.gz"
     end
   end
   on_linux do
     on_arm do
-      sha256 "f6f992899ef9b8909ea0ee17b24737da57a70bd90d650d590eabfa22bab2273e"
+      sha256 "42b0a19f36dbb8fa64dab4d324ffba52cfe7a79d0c01f0d981fa54c1019e23e9"
       url "https://github.com/RuustRun/cli/releases/download/v#{version}/ruust_#{version}_linux_arm64.tar.gz"
     end
     on_intel do
-      sha256 "7e6dd666c5d2eb62fc1faba53689b66190c174bf1fcf440b1896a1e2fb41583c"
+      sha256 "41154562f4ef4ffd5c712d622b1d88bb6966faf14188893de1d8ce826a4e3e9f"
       url "https://github.com/RuustRun/cli/releases/download/v#{version}/ruust_#{version}_linux_amd64.tar.gz"
     end
   end
